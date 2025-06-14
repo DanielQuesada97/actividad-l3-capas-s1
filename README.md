@@ -56,13 +56,13 @@ La API debe incluir los siguientes **3 endpoints**, cada uno desarrollado por un
 }
 ```
 
-### 2️⃣ Obtener todos los videojuegos
+### 2️⃣ Obtener todos los clubes
 - **Método:** `GET`  
 - **Ruta:** `/api/clubs/search`
 - **Parámetro:** name (query param)
 - **Ejemplo de URL:** /api/clubs/search?name=Real Madrid
 - **Content-Type:** `application/json`  
-- **Body de ejemplo:**
+- **Response de ejemplo:**
 
 ```json
 [
@@ -83,7 +83,7 @@ La API debe incluir los siguientes **3 endpoints**, cada uno desarrollado por un
 - **Ruta:** `/api/clubs/country/{country}`
 - **Ejemplo de URL:** /api/clubs/country/España
 - **Content-Type:** `application/json`  
-- **Body de ejemplo:**
+- **Response de ejemplo:**
 
 ```json
 [
